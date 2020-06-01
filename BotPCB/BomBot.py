@@ -135,6 +135,8 @@ for i in range(len(ceniceNoveNove)):
     print("Cena za nejveci moguci broj komada na digikey:" +str(BabaMangup[i])+"\n")
     print("Broj komada na PCB-u"+str(components[i].Kolicina)+"\n")
     cenaTotal+=BabaMangup[i]*int(components[i].Kolicina)
+cenaTotal+=0.05651*15
+cenaTotal+=12
 #nisu dobro sortirane sve komponente i cene izdebagovati    
 #cenaTotal  je bila poslednji put 78 dolara jos 12 za pcb i jos 4 za neuracunat dupli kondenzator, ostaje da se izdebaguje dalje ova skripta  
 """
